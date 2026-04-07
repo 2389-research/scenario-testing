@@ -5,6 +5,7 @@ End-to-end testing with real dependencies. No mocks allowed.
 ## Installation
 
 ```bash
+/plugin marketplace add 2389-research/claude-plugins
 /plugin install scenario-testing@2389-research
 ```
 
