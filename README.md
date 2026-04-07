@@ -130,3 +130,9 @@ See [skills/SKILL.md](skills/SKILL.md) for the complete scenario testing protoco
 ## Philosophy
 
 Real validation over false confidence. Mocks test assumptions, not reality.
+
+---
+
+If xtool freed you from Xcode, a ⭐ helps us know it's landing.
+
+Built by [2389](https://2389.ai) · Part of the [Claude Code plugin marketplace](https://github.com/2389-research/claude-plugins)
