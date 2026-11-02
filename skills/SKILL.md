@@ -1,6 +1,6 @@
 ---
 name: scenario-testing
-description: This skill should be used when writing tests, validating features, or needing to verify code works. Triggers on "write tests", "add test coverage", "validate feature", "integration test", "end-to-end", "e2e test", "mock", "unit test". Enforces scenario-driven testing with real dependencies in .scratch/ directory.
+description: Proves features work through real-dependency scenario tests instead of mocks. Use when writing tests for new features, before declaring any feature complete, after fixing bugs that need verification, or when tempted to reach for mocks or unit tests as the primary validation.
 ---
 
 # Scenario-Driven Testing for AI Code Generation
@@ -16,8 +16,6 @@ Mocks create false confidence. Only scenarios exercising real systems validate t
 1. **Scenario tests** (real system, real data) = **truth**
 2. **Unit tests** (isolated) = human comfort only
 3. **Mocks** = lies hiding bugs
-
-As stated in the principle: "A test that uses mocks is not testing your system. It's testing your assumptions about how dependencies behave."
 
 ## When to Use This Skill
 
@@ -87,11 +85,3 @@ A feature is complete only when:
 3. **Run and verify** - Execute scenario, confirm it passes
 4. **Extract pattern** - Document in `scenarios.jsonl`
 5. **Keep .scratch ignored** - Never commit scratch scenarios
-
-## Why This Matters
-
-- **Unit tests** verify isolated logic
-- **Integration tests** verify components work together
-- **Scenario tests** verify the system actually works
-
-Only scenario tests prove your feature delivers value to users.

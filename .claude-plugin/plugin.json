@@ -1,5 +1,6 @@
 {
   "name": "scenario-testing",
   "description": "End-to-end testing with real dependencies - no mocks allowed; scenarios with real data are the only source of truth",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "keywords": ["scenario-testing", "no-mocks", "integration-testing", "real-dependencies", "e2e"]
 }
